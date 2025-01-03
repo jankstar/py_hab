@@ -1,0 +1,15 @@
+.env
+env
+
+build
+dist
+
+.vscode/
+
+__pycache__
+pycache/
+
+*.py[cod]
+*.db
+*.xml
+*.log
