@@ -1,4 +1,4 @@
-# Python fastapi Server with mqtt client to receive data from `MT681` device via `tasmota` SmartMeterReader and FritzBox SmartMeter devices (py_tas)
+# Python fastapi Server with mqtt client to receive data from `MT681` device via `tasmota` SmartMeterReader and FritzBox SmartMeter devices (py_hab)
 
 This `fastapi` server enables access to a sqlite DB (`sqlalchemy`) with SmartMeter data from an mqtt broker and the SmartMeter data from a FritzBox. 
 The database therefore contains the measurement data and devices and this data is made available via `pydantic` and `fastapi`.
