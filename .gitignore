@@ -12,4 +12,5 @@ pycache/
 *.py[cod]
 *.db
 *.xml
+*.json
 *.log

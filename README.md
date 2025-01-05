@@ -10,9 +10,10 @@ To ensure that the scheduler and job information is available to all work proces
 
 Please get standard installation of python on your system and install this server as follows:<br>
 ```shell
-git clone https://github.com/jankstar/py_tas.git
-cd py_tas
+git clone https://github.com/jankstar/py_hab.git
+cd py_hab
 python3 -m venv env
+source env/bin/activate
 pip install -r requirements.txt 
 ./start.sh
 ```

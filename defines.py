@@ -20,5 +20,7 @@ TIMEZONE = os.getenv('TIMEZONE', 'Europe/Berlin')
 SESSION_SECRET = os.getenv('SESSION_SECRET', 'secret')
 FRONTEND_URL = os.getenv('FRONTEND_URL',"http://localhost:8000")
 RPYX_PORT = int(os.getenv('RPYX_PORT',8001))
+TASMOTA_URL = os.getenv('TASMOTA_URL',"http://0.0.0.0")
+
 DEFAULT_LIMIT = 200
 MODE = 'NO_DEBUG' #'DEBUG'
